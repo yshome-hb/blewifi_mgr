@@ -1,0 +1,13 @@
+add_library(shared
+    att.c
+    crypto.c
+    gatt-db.c
+    gatt-helpers.c
+    gatt-server.c
+    io-mainloop.c
+    mainloop.c
+    queue.c
+    timeout-mainloop.c
+    util.c
+    mgmt.c
+)
